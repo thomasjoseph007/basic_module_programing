@@ -95,6 +95,7 @@ public static void book() throws IOException {
 	{
 		lv=0;
 	}
+	
 	tv = av+cv+cav+wv+lv;
 	System.out.println(" The total charge is Rs. "+tv);
 	System.out.println(" The services chosen are ");
