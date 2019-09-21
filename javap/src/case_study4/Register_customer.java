@@ -11,6 +11,7 @@ public class Register_customer {
 	public static String c = "y";
 	public static String e = "y";
 	public static  int i;
+	
 	public static  int f=1;
 	public static  int a[] = new int[26];
 	public static String b[] = new String[26];
@@ -52,6 +53,7 @@ public class Register_customer {
 				Array.set(b, i, name);
 				break;
 			}
+		
 		}
 		System.out.println("Thank you for  for registering. Your id is "+a[i]);
 		System.out.println("Do you want to continue registration (y/n)?");
